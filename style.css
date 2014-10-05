@@ -33,7 +33,7 @@ div#header-links {
   height: 220px;
 }
 div#header-links a.map-link {
-  top: 160px;
+  top: 162px;
 }
 div#header-links a#patterns {
   width: 116px;
@@ -72,8 +72,7 @@ div#footer-links {
   height: 425px;
 }
 div#footer-links a.map-link {
-  top: 192px;
-  width: 100px;
+  top: 194px;
 }
 div#footer-links a#behance {
   width: 100px;
