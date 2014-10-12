@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,700,600);
+
 body, html {
   width: 100%;
   background-image: url(images/background.png);
@@ -6,6 +8,7 @@ body, html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Crimson Text', serif;
 }
 
 header, div#container, footer {
@@ -34,93 +37,38 @@ a.map-link {
 
 }
 
-div#header-links {
+.margin {
+  margin-left: 45px;
+  margin-right: 45px;
+}
 
-  width: 1100px;
-  height: 220px;
-
-  // all the links are 160 from the top
-  a.map-link {
-    top: 162px;
+.intro-text {
+  h1 {
+    margin-top: 10px;
+    font-size: 3em;
   }
-
-
-  a#patterns {
-    width: 116px;
-    left: 43px;
-  }
-
-  a#collage {
-    width: 101px;
-    left: 187px;
-  }
-
-  a#animation {
-    width: 112px;
-    left: 320px;
-  }
-
-  a#illustration {
-    width: 150px;
-    left: 465px;
-  }
-
-  a#news {
-    width: 60px;
-    left: 645px;
-  }
-
-  a#shop {
-    width: 63px;
-    left: 738px;
-  }
-
-  a#t-shirts {
-    width: 110px;
-    left: 830px;
-  }
-
-  a#music {
-    width: 74px;
-    left: 968px;
+  p {
+    font-size: 1.2em;
   }
 }
 
-div#footer-links {
-  width: 1100px;
-  height: 425px;
+.img-gallery {
 
-  a.map-link {
-    top: 194px;
-  }
+  .gallery-row {
 
-  a#behance {
-    width: 100px;
-    left: 237px;
-    transform: rotate(0);
-  }
+    img {
+      margin: 15px 0;
+    }
 
-  a#pinterest {
-    width: 120px;
-    left: 367px;
-    transform: rotate(-2);
-  }
-
-  a#wordpress {
-    width: 130px;
-    left: 513px;
-  }
-
-  a#facebook {
-    width: 118px;
-    left: 675px;
-  }
-
-  a#twitter {
-    width: 98px;
-    left: 824px;
+    img:nth-child(2) {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
   }
 
 }
 
 
+
+
+@import "links";
