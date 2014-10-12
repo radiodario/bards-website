@@ -1,3 +1,92 @@
+a.map-link {
+  color: transparent;
+  position: absolute;
+  height: 28px;
+  transform: rotate(-1deg);
+}
+a.map-link:hover {
+  background-color: rgba(150, 30, 150, 0.2);
+}
+div#header-links {
+  width: 1100px;
+  height: 220px;
+}
+div#header-links a.map-link {
+  top: 162px;
+}
+div#header-links a#home {
+  top: 20px;
+  width: 1000px;
+  left: 43px;
+  height: 100px;
+  transform: rotate(0deg);
+}
+div#header-links a#home:hover {
+  background-color: rgba(150, 30, 150, 0.01);
+}
+div#header-links a#patterns {
+  width: 116px;
+  left: 43px;
+}
+div#header-links a#collage {
+  width: 101px;
+  left: 187px;
+}
+div#header-links a#animation {
+  width: 112px;
+  left: 320px;
+}
+div#header-links a#illustration {
+  width: 150px;
+  left: 465px;
+}
+div#header-links a#news {
+  width: 60px;
+  left: 645px;
+}
+div#header-links a#shop {
+  width: 63px;
+  left: 738px;
+}
+div#header-links a#t-shirts {
+  width: 110px;
+  left: 830px;
+}
+div#header-links a#music {
+  width: 74px;
+  left: 968px;
+}
+div#footer-links {
+  width: 1100px;
+  height: 425px;
+}
+div#footer-links a.map-link {
+  top: 194px;
+}
+div#footer-links a#behance {
+  width: 100px;
+  left: 237px;
+  transform: rotate(0);
+}
+div#footer-links a#pinterest {
+  width: 120px;
+  left: 367px;
+  transform: rotate(-2);
+}
+div#footer-links a#wordpress {
+  width: 130px;
+  left: 513px;
+}
+div#footer-links a#facebook {
+  width: 118px;
+  left: 675px;
+}
+div#footer-links a#twitter {
+  width: 98px;
+  left: 824px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,700,600);
 body,
 html {
   width: 100%;
@@ -6,6 +95,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Crimson Text', serif;
 }
 header,
 div#container,
@@ -28,12 +118,49 @@ a.map-link {
 a.map-link:hover {
   background-color: rgba(150, 30, 150, 0.2);
 }
+.margin {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.intro-text h1 {
+  margin-top: 10px;
+  font-size: 3em;
+}
+.intro-text p {
+  font-size: 1.2em;
+}
+.img-gallery .gallery-row img {
+  margin: 15px 0;
+}
+.img-gallery .gallery-row img:nth-child(2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+a.map-link {
+  color: transparent;
+  position: absolute;
+  height: 28px;
+  transform: rotate(-1deg);
+}
+a.map-link:hover {
+  background-color: rgba(150, 30, 150, 0.2);
+}
 div#header-links {
   width: 1100px;
   height: 220px;
 }
 div#header-links a.map-link {
   top: 162px;
+}
+div#header-links a#home {
+  top: 20px;
+  width: 1000px;
+  left: 43px;
+  height: 100px;
+  transform: rotate(0deg);
+}
+div#header-links a#home:hover {
+  background-color: rgba(150, 30, 150, 0.01);
 }
 div#header-links a#patterns {
   width: 116px;
