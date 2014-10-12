@@ -1,3 +1,18 @@
+a.map-link {
+  color: transparent;
+  position: absolute;
+  height: 28px;
+  // border: 1px solid pink;
+  transform: rotate(-1deg);
+
+  &:hover {
+    background-color: rgba(150, 30, 150, 0.2);
+  }
+
+}
+
+
+
 div#header-links {
 
   width: 1100px;
@@ -6,6 +21,17 @@ div#header-links {
   // all the links are 160 from the top
   a.map-link {
     top: 162px;
+  }
+
+  a#home {
+    top: 20px;
+    width: 1000px;
+    left: 43px;
+    height: 100px;
+    transform: rotate(0deg);
+    &:hover {
+      background-color: rgba(150, 30, 150, 0.01);
+    }
   }
 
 
