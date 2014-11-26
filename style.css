@@ -28,8 +28,7 @@ footer {
 }
 .intro-text h1 {
   margin-top: 10px;
-  margin-bottom: -10px;
-  font-size: 3em;
+  font-size: 2em;
 }
 .intro-text p {
   font-size: 1.2em;
@@ -49,6 +48,17 @@ a.map-link {
 }
 a.map-link:hover {
   background-color: rgba(150, 30, 150, 0.2);
+}
+div#portrait {
+  height: 300px;
+  width: 300px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+  background-image: url('images/dpz-kozmik-static.gif');
+}
+div#portrait:hover {
+  background-image: url('images/dpz-kozmik-animation.gif');
 }
 div#header-links {
   width: 1100px;
@@ -83,13 +93,13 @@ div#header-links a#illustration {
   width: 150px;
   left: 465px;
 }
-div#header-links a#news {
-  width: 60px;
-  left: 645px;
+div#header-links a#about {
+  width: 77px;
+  left: 643px;
 }
 div#header-links a#shop {
-  width: 63px;
-  left: 738px;
+  width: 66px;
+  left: 740px;
 }
 div#header-links a#t-shirts {
   width: 110px;
