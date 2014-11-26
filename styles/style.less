@@ -34,12 +34,14 @@ header, div#container, footer {
 .intro-text {
   h1 {
     margin-top: 10px;
-    margin-bottom: -10px;
+    // margin-bottom: -10px;
     font-size: 3em;
   }
   p {
     font-size: 1.2em;
   }
+
+
 }
 
 .img-gallery {
@@ -71,6 +73,22 @@ a.map-link {
 
 }
 
+
+div#portrait {
+
+  height: 300px;
+  width: 300px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+
+  background-image: url('images/dpz-kozmik-static.gif');
+
+  &:hover {
+    background-image: url('images/dpz-kozmik-animation.gif');
+  }
+
+}
 
 
 div#header-links {
@@ -115,14 +133,14 @@ div#header-links {
     left: 465px;
   }
 
-  a#news {
-    width: 60px;
-    left: 645px;
+  a#about {
+    width: 77px;
+    left: 643px;
   }
 
   a#shop {
-    width: 63px;
-    left: 738px;
+    width: 66px;
+    left: 740px;
   }
 
   a#t-shirts {
